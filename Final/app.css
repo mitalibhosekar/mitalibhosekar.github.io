@@ -1,0 +1,157 @@
+body {
+    background: #efe7e2;
+    font-family: "Handlee", monospace;
+}
+
+.blurb h2 {
+   color: #000000;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #494848;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+wires{
+background: #EA1C2C;
+
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.spaces{
+    margin-top: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ff914d;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #635345;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #635345;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+
+.footer-basic {
+    padding:20px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+}
+  
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+  
+.footer-basic li {
+    padding:0 10px;
+}
+  
+.footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+.footer-basic ul a:hover {
+    opacity:1;
+}
+  
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:20px;
+}
+  
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+  
+.footer-basic .social > a:hover {
+    opacity:0.9;
+}
+  
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bacdef;
+    
+}
+
+.img-container img{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bcddde;
+}
+
+.img-container1 img{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
