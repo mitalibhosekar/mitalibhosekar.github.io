@@ -1,5 +1,5 @@
 body {
-    background: #efe7e2;
+    background: #f2f3f2;
     font-family: "Handlee", monospace;
 }
 
@@ -154,4 +154,12 @@ background: #EA1C2C;
     margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.img-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    
 }
