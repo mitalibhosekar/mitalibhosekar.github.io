@@ -1,6 +1,25 @@
+@font-face{
+    font-family: 'Apple Fonts body';
+    src: url("imgs/Helvetica\ LT\ 45\ Light.ttf")
+
+}
+
+@font-face {
+    font-family: 'headings';
+    src: url(imgs/Helvetica\ Neue\ LT\ Pro\ 65\ Medium.otf);
+}
+
 body {
     background: #f2f3f2;
-    font-family: "Handlee", monospace;
+    font-family: 'Apple Fonts body';
+}
+
+.fonts span{
+    font-family: 'headings';
+}
+
+section h3{
+    font-style: bold;
 }
 
 .blurb h2 {
