@@ -1,12 +1,12 @@
 @font-face{
     font-family: 'Apple Fonts body';
-    src: url("imgs/Helvetica\ LT\ 45\ Light.ttf")
+    src: url("imgs/Helvetica45.ttf")
 
 }
 
 @font-face {
     font-family: 'headings';
-    src: url(imgs/Helvetica\ Neue\ LT\ Pro\ 65\ Medium.otf);
+    src: url(imgs/HelveticaNeue65.otf);
 }
 
 body {
@@ -18,9 +18,6 @@ body {
     font-family: 'headings';
 }
 
-section h3{
-    font-style: bold;
-}
 
 .blurb h2 {
    color: #000000;
@@ -37,10 +34,6 @@ section h3{
     text-justify: inter-word;
 }
 
-wires{
-background: #EA1C2C;
-
-}
 
 .content {
     margin-top: 50px;
